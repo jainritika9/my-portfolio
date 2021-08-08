@@ -45,7 +45,8 @@ function Work() {
             />
 
             <div  >
-                <a href='https://snapchat-clone-4a1e7.web.app/' >
+                <a href='https://snapchat-clone-4a1e7.web.app/' target = "_blank" 
+rel = "noopener noreferrer" >
                     <div className='link'>
                     <h1>Snapchat-clone</h1>
                     <ExternalLinkIcon className='h-5'/>
@@ -53,7 +54,8 @@ function Work() {
                 </a>
                 <p className='text-sm text-gray-600 pl-3 -mt-2 pb-16 '>Note: Open on deskstop
                 <br/> </p>
-                <a href='https://github.com/jainritika9/snapchat-clone'>
+                <a href='https://github.com/jainritika9/snapchat-clone' target = "_blank" 
+rel = "noopener noreferrer">
                 <Button  size='sm' className=' mt-5 w-full dark:bg-gradient-to-r dark:from-red-400 dark:to-yellow-400'><GitHubIcon className='h-6 w-6 mx-2'/>View github repo</Button>
                 </a>
             </div>
@@ -81,14 +83,16 @@ function Work() {
                 alt="Card Image"
             />
 
-            <a href='https://clone-23.web.app/'>
+            <a href='https://clone-23.web.app/' target = "_blank" 
+rel = "noopener noreferrer">
                 <div className='link'>
                     <h1>Gmail-clone</h1>
                     <ExternalLinkIcon className='h-5'/>
                 </div>
             </a>
             <p className='text-sm text-gray-600 pl-3 -mt-2 pb-16'>Note: Open on deskstop</p>
-            <a href='https://github.com/jainritika9/gmail-clone-23'>
+            <a href='https://github.com/jainritika9/gmail-clone-23' target = "_blank" 
+rel = "noopener noreferrer">
             <Button  size='sm' className=' mt-5 w-full dark:bg-gradient-to-r dark:from-blue-400 dark:to-green-400'><GitHubIcon className='h-6 w-6 mx-2'/>View github repo</Button>
             </a>
             </Card>
@@ -115,13 +119,17 @@ function Work() {
                 alt="Card Image"
             />
 
+                     <a href='' target = "_blank" 
+rel = "noopener noreferrer">
                     <div className='link'>
                     <h1>Google-Docs-clone</h1>
                     <ExternalLinkIcon className='h-5'/>
                     </div>
+                    </a>
                     <p className='text-sm text-gray-600 pl-3 pb-16 -mt-2'>Fully responsive
                      </p>
-                     <a href='https://github.com/jainritika9/google-docs'>
+                     <a href='https://github.com/jainritika9/google-docs' target = "_blank" 
+rel = "noopener noreferrer">
                     <Button  size='sm' className='mt-5 w-full dark:bg-gradient-to-r dark:from-red-400 dark:to-blue-400'><GitHubIcon className='h-6 w-6 mx-2'/>View github repo</Button>
             </a>
             </Card>
@@ -148,7 +156,8 @@ function Work() {
                 alt="Card Image"
             />
 
-            <a href='https://amazon-starter-template-nextjs-cyan.vercel.app/'>
+            <a href='https://amazon-starter-template-nextjs-cyan.vercel.app/' target = "_blank" 
+rel = "noopener noreferrer">
             <div className='link'>
                     <h1>Amazon-clone</h1>
                     <ExternalLinkIcon className='h-5'/>
@@ -156,7 +165,8 @@ function Work() {
             </a>
             <p className='text-sm text-gray-600 pl-3 -mt-2 pb-16'>Fully responsive
             </p>
-            <a href='https://github.com/jainritika9/Amazon-starter-template-nextjs'>
+            <a href='https://github.com/jainritika9/Amazon-starter-template-nextjs' target = "_blank" 
+rel = "noopener noreferrer">
             <Button  size='sm' className=' mt-5 w-full dark:bg-gradient-to-r dark:from-blue-400 dark:to-yellow-400 '><GitHubIcon className='h-6 w-6 mx-2'/>View github repo</Button>
             </a></Card>
             </div>

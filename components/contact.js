@@ -62,10 +62,14 @@ function Contact() {
                 </CardHeader></motion.div>
                 <p className='text-black-700 text-lg px-3'>Social Media</p>
                 <div className='flex space-x-4 text-gray-600 pt-5'>
-                    <a href='https://www.linkedin.com/in/ritika-jain19/' className=' hover:text-blue-700 hover:scale-110'><LinkedInIcon /></a>
-                    <a href='https://github.com/jainritika9' className=' hover:text-black hover:scale-110'><GitHubIcon/></a>
-                    <a href='https://www.instagram.com/jain_ritika9/' className=' hover:text-pink-500 hover:scale-110'><InstagramIcon /></a>
-                    <a href='https://www.facebook.com/profile.php?id=100068321311873' className=' hover:text-blue-500 hover:scale-110'><FacebookIcon /></a>
+                    <a href='https://www.linkedin.com/in/ritika-jain19/' target = "_blank" 
+rel = "noopener noreferrer" className=' hover:text-blue-700 hover:scale-110'><LinkedInIcon /></a>
+                    <a href='https://github.com/jainritika9' target = "_blank" 
+rel = "noopener noreferrer" className=' hover:text-black hover:scale-110'><GitHubIcon/></a>
+                    <a href='https://www.instagram.com/jain_ritika9/' target = "_blank" 
+rel = "noopener noreferrer" className=' hover:text-pink-500 hover:scale-110'><InstagramIcon /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100068321311873' target = "_blank" 
+rel = "noopener noreferrer" className=' hover:text-blue-500 hover:scale-110'><FacebookIcon /></a>
                 </div>
                 
             </CardRow>

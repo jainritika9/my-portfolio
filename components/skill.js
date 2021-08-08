@@ -39,14 +39,14 @@ function Skill() {
                      dark:bg-gradient-to-b dark:from-red-400 dark:to-yellow-400
                     dark:text-white rounded-xl dark:border-2 dark:border-golden' >
                         <h1>Technologies</h1>
-                        <p className='text-gray-700 text-lg dark:text-black'>HTML, CSS, Bootstrap, React.js, Next.js, TailwindCss, Firebase</p>
+                        <p className='text-gray-700 text-lg dark:text-black'>HTML, CSS, Bootstrap, React.js, Next.js, TailwindCss</p>
                     </motion.div>
                     <motion.div initial='hidden'  whileHover={{ scale: 1.1 }} animate={animation} variants={variants}
                     className='bg-blue-300 p-6 text-lg md:text-xl shadow-lg hover:scale-110 
                     dark:bg-gradient-to-b dark:from-pink-300 dark:to-green-700 
                     dark:text-white rounded-xl dark:border-2 dark:border-golden' >
-                        <h1>Other</h1>
-                        <p className='text-gray-700 text-lg dark:text-black'>Solid Works, Autocad</p>
+                        <h1>Database</h1>
+                        <p className='text-gray-700 text-lg dark:text-black'>Firebase</p>
                     </motion.div>
                     
                     <motion.div initial='hidden' animate={animation} variants={variants} className='flex space-x-3 justify-center'>
