@@ -15,8 +15,8 @@ function Homepage() {
          <div className='grid grid-flow-row-dense md:grid-cols-2 px-5 items-center justify-center'>
           <div className='flex flex-col items-center justify-center'>
             <div className='flex items-center justify-center'>
-                <h1 className='text-3xl md:text-5xl lg:text-6xl text-gray-700 py-5 dark:text-white'>HELLO!!</h1>  
-                <div className='text-3xl  md:text-5xl lg:text-6xl text-red-700 font-mono'>
+                <h1 className='text-2xl md:text-5xl lg:text-6xl text-gray-700 py-5 dark:text-white'>HELLO!!</h1>  
+                <div className='text-2xl  md:text-5xl lg:text-6xl text-red-700 font-mono'>
                    I'm Ritika..
                 </div>
             </div>

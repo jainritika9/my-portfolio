@@ -36,7 +36,7 @@ function About() {
              
                 <div className='p-10 items-center transform bg-gradient-to-r from-red-400 to-purple-400   shadow-lg sm:rounded-3xl
                 dark:from-green-500 dark:to-blue-400 '>
-                  <Image src='/profile.png' width='350' height='350' className='rounded-full'/>
+                  <Image src='/pro.jpeg' width='380' height='380' className='rounded-full'/>
                   
                 </div>
                

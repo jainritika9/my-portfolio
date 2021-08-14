@@ -26,83 +26,29 @@ function Contact() {
       transition:{type:'spring' ,duration:3,bounce:0.3}
     }
   }
- 
+  const variants2={
+    hidden2: {x:'-100vw'},
+    visible2: {
+      x:0,
+      transition:{type:'spring' ,duration:2,bounce:0.3}
+    }
+  }
   useEffect(()=>{
     if(inView){
       animation.start('visible');
-      
+      animation.start('visible2');
     }
     if(!inView){
       animation.start('hidden');
-      
+      animation.start('hidden2');
     }
   },[inView])
     return (
         <div ref={ref} className='py-20 flex  flex-col space-y-20 items-center md:px-10 lg:px-20 '>
-         <div  className='grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-4 gap-10  '>
-         <div className='hover:scale-110'>
-         <Card>
-            <CardRow>
-                <motion.div initial='hidden' animate={animation} variants={variants}>
-                <CardHeader color="lightGreen" size="md"  iconOnly>
-                    <LocationMarkerIcon className='h-14 w-10 '/>
-                </CardHeader>
-                </motion.div>
-                <p className='text-black-700 text-lg px-3'>My Address</p>
-                <p className='text-gray-700 text-md px-3'>94, Serve Ritu Vilas ,Udaipur,Rajasthan</p>
-            </CardRow>
-        </Card>
-        </div>
-        <div className='hover:scale-110'>
-        <Card >
-            <CardRow>
-            <motion.div initial='hidden' animate={animation} variants={variants}>
-                <CardHeader color="yellow" size="md" iconOnly >
-                    <Icon name="share" size="5xl" color="white"  />
-                </CardHeader></motion.div>
-                <p className='text-black-700 text-lg px-3'>Social Media</p>
-                <div className='flex space-x-4 text-gray-600 pt-5'>
-                    <a href='https://www.linkedin.com/in/ritika-jain19/' target = "_blank" 
-rel = "noopener noreferrer" className=' hover:text-blue-700 hover:scale-110'><LinkedInIcon /></a>
-                    <a href='https://github.com/jainritika9' target = "_blank" 
-rel = "noopener noreferrer" className=' hover:text-black hover:scale-110'><GitHubIcon/></a>
-                    <a href='https://www.instagram.com/jain_ritika9/' target = "_blank" 
-rel = "noopener noreferrer" className=' hover:text-pink-500 hover:scale-110'><InstagramIcon /></a>
-                    <a href='https://www.facebook.com/profile.php?id=100068321311873' target = "_blank" 
-rel = "noopener noreferrer" className=' hover:text-blue-500 hover:scale-110'><FacebookIcon /></a>
-                </div>
-                
-            </CardRow>
-        </Card>
-        </div>
-        <div className='hover:scale-110'>
-        <Card >
-            <CardRow>
-            <motion.div initial='hidden' animate={animation} variants={variants}>
-                <CardHeader color="red" size="md" iconOnly>
-                    <Icon name="email" size="5xl" color="white" />
-                </CardHeader></motion.div>
-
-                <p className='text-black-700 text-lg px-3'>Gmail</p>
-                <p className='text-gray-700 text-md px-3 pt-5'>jain.ritika919@gmail.com</p>
-            </CardRow>
-        </Card>
-        </div>
-        <div className='hover:scale-110'>
-        <Card >
-            <CardRow>
-            <motion.div initial='hidden' animate={animation} variants={variants}>
-                <CardHeader color="lightBlue" size="md" iconOnly>
-                    <Icon name="phone" size="5xl" color="white" />
-                </CardHeader></motion.div>
-
-                <p className='text-black-700 text-lg px-3'>Phone</p>
-                <p className='text-gray-700 text-md px-3 pt-5'>+91 7073537411</p>
-            </CardRow>
-        </Card>
-        </div>
-         </div>
-         
+         <div className='grid grid-flow-row-dense md:grid-cols-2 items-center gap-8'>
+         <motion.div className='-mt-20 md:-mt-0' initial='hidden2' animate={animation} variants={variants2}>
+             <img src='/251.png'/>
+         </motion.div>
          <Card className='flex-grow' >
          <motion.div initial='hidden' animate={animation} variants={variants}>
             <CardHeader color="teal" size="sm">
@@ -114,7 +60,7 @@ rel = "noopener noreferrer" className=' hover:text-blue-500 hover:scale-110'><Fa
                     <InputIcon
                         type="text"
                         color="lightBlue"
-                        placeholder="First Name"
+                        placeholder=" Name"
                         iconName="account_circle"
                     />
                 </div>
@@ -148,7 +94,7 @@ rel = "noopener noreferrer" className=' hover:text-blue-500 hover:scale-110'><Fa
                 </div>
             </CardFooter>
         </Card>
-        
+        </div>
         </div>
     )
 }
