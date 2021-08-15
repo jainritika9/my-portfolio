@@ -25,7 +25,7 @@ function Footer() {
                 <p className='px-2'>Made with </p><HeartIcon className='h-5' color='red'/><p className='px-2'> by Ritika</p>
             </div>
             <div className='flex items-center justify-center text-gray-500 text-sm md:text-md '>
-                <p className='px-2'>All rights reserved</p>< p className='text-sm'><CopyrightIcon className='text-gray-500'/></p><p className='px-0.5'>2021 Ritika Jain</p>
+                <p className='px-0 md:px-2'>All rights reserved</p>< p className='text-sm'><CopyrightIcon className='text-gray-500'/></p><p className='px-0.5'>2021 Ritika Jain</p>
             </div>
             <div className='flex items-center justify-center text-gray-500 text-sm md:text-md '>
                 <p>Illustration by themeisle.com</p>
