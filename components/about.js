@@ -59,7 +59,7 @@ function About() {
             iconOnly={false}
             ripple="light"
         >
-            <a href='./Resume2.pdf' download>Download Resume</a>
+            <a href='./ResumeM.pdf' download>Download Resume</a>
         </Button>
         
         </div>
