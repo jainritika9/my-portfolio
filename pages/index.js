@@ -24,7 +24,7 @@ export default function Home() {
       
       
       <Header/>
-      <section  className='p-8 ' id='Home'>
+      <section  className='p-6 md:p-8 ' id='Home'>
         <Homepage/>
       </section>
       <section className='p-8  min-h-screen dark:bg-black' id='About'>
